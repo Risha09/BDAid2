@@ -1,0 +1,103 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Contact Us</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7"></div>
+            <div class="col-md-5">
+                <div class="div12">
+                    <h2>Get in touch</h2>
+                    <h5>
+                        You need more information?Feel free to contact.
+                        We are always ready to help you.<br />
+                        Team BdAid.A social service community with a vision of helping Bangladesh.
+                    </h5>
+                </div>
+                <div>
+                    <form class="contact">
+                        <input type="text" placeholder="Email address" /><br /><br />
+                        <textarea rows="3" cols="33" name="message" placeholder="Message" style="background-color: transparent; color: white; font-style: italic; "></textarea>
+                        <input type="submit" value="Send" /><br />
+                        <div rows="2" cols="23" style="margin-top:5px">
+                            <img src="~/content/phones.jpg" alt="call" height="20" width="45">
+                            <p style="color: white; letter-spacing: 1px;; font-style: italic; ">Call us at<br />Sumaiya Hasan<br />Mobile:01611111110</p>
+                            <img src="~/content/gps2.jpg" alt="call" height="20" width="50">
+                            <p style="color: white; letter-spacing: 1px;; font-style: italic; ">Find us at office<br />752/A,Mohakhali<br />Dhaka,Bangladesh</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
+
+<style>
+    body {
+        background-image: url('/Content/contact.png');
+        background-color: grey;
+        background-size: cover;
+        padding: 0;
+        margin: 0;
+    }
+
+    ::placeholder {
+        color: white;
+    }
+
+    form {
+        width: 250px;
+        /*margin: 0 auto;*/
+        /*margin-left: 550px;*/
+        margin-top: 25px;
+    }
+
+        form.contact input[type="text"] {
+            width: 100%;
+            margin: 5px;
+            padding: 5px 10px;
+            background: 0;
+            border: 0;
+            border-bottom: 1px solid #FFFFFF;
+            outline: 0;
+            font-style: italic;
+            font-size: 12px;
+            font-weight: 400;
+            letter-spacing: 1px;
+            margin-bottom: 5px;
+            color: white;
+            outline: 0;
+        }
+
+        form.contact input[type="submit"] {
+            width: 30%;
+            font-size: 12px;
+            text-transform: uppercase;
+            font-weight: 400;
+            margin-top: 16px;
+            margin-left: 170px;
+            outline: 0;
+            cursor: pointer;
+            letter-spacing: 1px;
+            background-color: grey;
+            color: white;
+        }
+
+    .div12 {
+        font-size: 13px;
+        letter-spacing: 1px;
+        color: white;
+        font-style: italic;
+        /*margin-left:550px;*/
+    }
+</style>
