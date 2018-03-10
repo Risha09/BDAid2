@@ -19,6 +19,11 @@ namespace BdAid.Controllers
             return View();
         }
 
+        public ActionResult DonnerProfileView()
+        {
+            return View();
+        }
+
 
     }
 }
