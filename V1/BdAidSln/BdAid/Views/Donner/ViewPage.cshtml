@@ -1,0 +1,96 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Select Post</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-0"></div>
+            <div class="col-md-5">
+                <div class="div12">
+                    <h1><b>Post Details</b></h1>
+                    <h5>
+                        By using this Plateform <i>BdAid</i><br/>
+                        we want to help the sufferers so that they can at least lead a better life.
+                        So here are some post so please see those and feel free to donnate.
+                    </h5>
+                </div>
+                <hr/>
+               
+                <div>
+                    <form class="detail">
+                        
+                        <textarea rows="8" cols="50" name="message" placeholder="Message" style="background-color: transparent; color: white; font-style: italic; "></textarea>
+                        <input type="submit" value="Respond" /><br /><br/>
+                        
+                        <textarea rows="8" cols="50" name="message1" placeholder="Message" style="background-color: transparent; color: white; font-style: italic; "></textarea>
+                        <input type="submit" value="Respond" /><br />
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
+
+<style>
+       body {
+        background-image: url('/Content/viewpg.jpg');
+        background-color: grey;
+        background-size: cover;
+        padding: 0;
+        margin: 0;
+    }
+
+    ::placeholder {
+        color: white;
+    }
+     form.detail input[type="text"] {
+         width: 100%;
+         margin: 5px;
+         padding: 5px 10px;
+         background: 0;
+         border: 0;
+         border-bottom: 1px solid #FFFFFF;
+         outline: 0;
+         font-style: italic;
+         font-size: 12px;
+         font-weight: 400;
+         letter-spacing: 1px;
+         margin-bottom: 10px;
+         color: white;
+         outline: 0;
+     }
+
+    form.detail input[type="submit"] {
+        width: 25%;
+        font-sie: 10px;
+        font-weight: 400;
+        margin-top: 10px;
+        margin-left: 10px;
+        outline: 0;
+        cursor: pointer;
+        letter-spacing: 1px;
+        background-color:azure
+        color: white;
+        font-style: bold;
+    }
+
+    .div12 {
+        font-size: 30px;
+        letter-spacing: 1px;
+        color:azure;
+        font-style: Cambria ;
+        /*margin-left:550px;*/
+    }
+</style>
