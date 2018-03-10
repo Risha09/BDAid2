@@ -229,9 +229,9 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Default\ContactView.cshtml" />
     <Content Include="Views\Default\LoginView.cshtml" />
-    <Content Include="Views\Donner\ViewPage.cshtml" />
     <Content Include="Views\Donner\ViewRespond.cshtml" />
     <Content Include="Views\Donner\DonnerProfileView.cshtml" />
+    <Content Include="Views\Donner\ViewPage.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
