@@ -19,5 +19,9 @@ namespace BdAid.Controllers
         {
             return View();
         }
+        public ActionResult HomeView()
+        {
+            return View();
+        }
 	}
 }
