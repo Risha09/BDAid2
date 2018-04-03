@@ -162,6 +162,7 @@
     <Compile Include="Controllers\DefaultController.cs" />
     <Compile Include="Controllers\DonnerController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\HomePageController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -172,10 +173,13 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\BDon1.png" />
+    <Content Include="Content\BDon2.jpg" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\contact.png" />
     <Content Include="Content\aiub.jpg" />
+    <Content Include="Content\Donate1.jpg" />
     <Content Include="Content\info.jpg" />
     <Content Include="Content\profileBk.jpg" />
     <Content Include="Content\viewpg.jpg" />
@@ -232,6 +236,7 @@
     <Content Include="Views\Donner\ViewRespond.cshtml" />
     <Content Include="Views\Donner\DonnerProfileView.cshtml" />
     <Content Include="Views\Donner\ViewPage.cshtml" />
+    <Content Include="Views\HomePage\HomePageView.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
